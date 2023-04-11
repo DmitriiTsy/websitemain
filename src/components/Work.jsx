@@ -25,24 +25,25 @@ const Work = ({mode}) => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${lyft})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            <div
+            style={{ backgroundImage: `url(${hackforla})`}}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '
           >
             {/* Hover Effects */}
-            <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-center text-2xl font-bold text-white tracking-wider'>
-                 Responsive Lyft website
-                 <br></br>
-                (JavaScript)
+            <div className='opacity-0 group-hover:opacity-100 text-center'>
+              <span className='text-2xl font-bold text-white tracking-wider text-center'>
+                Event web platform Hack for LA <br></br>
+              </span>
+              <span className='text-2xl font-bold text-white tracking-wider text-center'>
+                (TypeScript + React.JS)
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://lyft-responsive.netlify.app/'>
+                <a href='https://www.hackforla.org/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/DmitriiTsy/Lyft_first'>
+                <a href='https://github.com/hackforla/website'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -153,24 +154,23 @@ const Work = ({mode}) => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${hackforla})`}}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '
+            style={{ backgroundImage: `url(${lyft})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl font-bold text-white tracking-wider text-center'>
-                Event web platform Hack for LA <br></br>
-              </span>
-              <span className='text-2xl font-bold text-white tracking-wider text-center'>
-                (TypeScript + React.JS)
+            <div className='text-center opacity-0 group-hover:opacity-100'>
+              <span className='text-center text-2xl font-bold text-white tracking-wider'>
+                 Responsive Lyft website
+                 <br></br>
+                (JavaScript)
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://www.hackforla.org/'>
+                <a href='https://lyft-responsive.netlify.app/'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/DmitriiTsy/Lyft_first'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>

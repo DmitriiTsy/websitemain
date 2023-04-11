@@ -104,7 +104,7 @@ const Navbar = ({changeColor, mode}) => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.linkedin.com/in/dmitrypm/'
+              href='https://www.linkedin.com/in/dmitrii-frontend/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -128,7 +128,7 @@ const Navbar = ({changeColor, mode}) => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1NcwASixKWAawW6tStQjdVW9qGI5j7nje/view?ths=true'
+              href='https://drive.google.com/file/d/19vsai8UncFq9STEwTU6mqgDMkGMbxJmB/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

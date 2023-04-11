@@ -27,8 +27,7 @@ const About = ({mode}) => {
               <br></br>
               <br></br>
               <div>
-              My main focus these days is building inspiring, accesible and inclusive products at </div> 
-              <div style={{color: 'pink-600'}}> HackForLa.</div>
+              My main focus these days is building inspiring, accesible and inclusive products at SideMind</div> 
               <div>
               I'm a self-motivated learner with strong organisation, time management & communication skills who believe that web design 
               can be more diverse and inspiring. </div>  

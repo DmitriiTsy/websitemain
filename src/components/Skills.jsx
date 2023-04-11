@@ -43,16 +43,16 @@ const Skills = ({mode}) => {
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Node} alt="HTML icon" />
-                  <p className='my-4'>NODE JS</p>
+                  <img className='w-20 mx-auto' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  <p className='my-4'>REACT NATIVE</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
-                  <p className='my-4'>MONGO DB</p>
+                  <img className='w-20 mx-auto' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                  <p className='my-4'>TYPESCRIPT</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={AWS} alt="HTML icon" />
-                  <p className='my-4'>AWS</p>
+                  <img className='w-20 mx-auto' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+                  <p className='my-4'>FIREBASE</p>
               </div>
           </div>
       </div>
