@@ -5,6 +5,9 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import FirstUseCase from './components/FirstUseCase'
+import SecondUseCase from './components/SecondUseCase'
+import ThirdUseCase from "./components/ThirdUseCase";
 
 
 const App = () =>  {
@@ -26,6 +29,9 @@ const App = () =>  {
       <About mode={mode}/>
       <Skills mode={mode}/>
       <Work mode={mode}/>
+      <FirstUseCase mode={mode}/>
+      <SecondUseCase mode={mode}/>
+      <ThirdUseCase mode={mode}/>
       <Contact mode={mode} />
     </div>
     )

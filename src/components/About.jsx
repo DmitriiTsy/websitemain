@@ -1,4 +1,5 @@
 import React from 'react';
+import myPhoto from '../assets/myPhotos.jpg'
 
 const About = ({mode}) => {
   return (
@@ -25,9 +26,8 @@ const About = ({mode}) => {
               the lives of those around me. 
               </div>
               <br></br>
-              <br></br>
               <div>
-              My main focus these days is building inspiring, accesible and inclusive products at SideMind</div> 
+              My main focus these days is building inspiring, accesible and inclusive products in AI as a Frontend Engineer</div> 
               <div>
               I'm a self-motivated learner with strong organisation, time management & communication skills who believe that web design 
               can be more diverse and inspiring. </div>  

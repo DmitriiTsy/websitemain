@@ -48,6 +48,11 @@ const Navbar = ({changeColor, mode}) => {
           </Link>
         </li>
         <li>
+          <Link to='firstusecase' smooth={true} duration={500}>
+          ⭐ Use Cases
+          </Link>
+        </li>
+        <li>
           <Link to='contact' smooth={true} duration={500}>
           📧 Contact
           </Link>
@@ -88,6 +93,12 @@ const Navbar = ({changeColor, mode}) => {
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='firstusecase' smooth={true} duration={500}>
+            Use Cases
           </Link>
         </li>
         <li className='py-6 text-4xl'>

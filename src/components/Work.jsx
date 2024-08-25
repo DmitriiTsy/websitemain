@@ -2,12 +2,12 @@ import React from 'react';
 import WorkImg from '../assets/workImg.jpeg';
 import realEstate from '../assets/realestate.jpg';
 import portfolioweb from '../assets/portfolioweb.jpeg';
-import lyft from '../assets/lyft.jpeg';
+import twelve from '../assets/twelve.png'
 import progress from '../assets/progress.jpeg';
-import weather from '../assets/weather.png'
+import jockey from '../assets/Jockey.png'
 import sidemind from '../assets/sidemindlogo.webp'
 import hackforla from '../assets/hfla_fb_logo.png'
-
+import { Link } from 'react-scroll';
 const Work = ({mode}) => {
   return (
     <div name='work' className={`w-full md:h-screen ${mode === 'white'? 'text-black-300': 'text-gray-300'} 
@@ -31,10 +31,10 @@ const Work = ({mode}) => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-2xl font-bold text-white tracking-wider text-center'>
+              <span className=' font-bold text-white tracking-wider text-center'>
                 Event web platform Hack for LA <br></br>
               </span>
-              <span className='text-2xl font-bold text-white tracking-wider text-center'>
+              <span className=' font-bold text-white tracking-wider text-center'>
                 (TypeScript + React.JS)
               </span>
               <div className='pt-8 text-center'>
@@ -48,6 +48,11 @@ const Work = ({mode}) => {
                     Code
                   </button>
                 </a>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    <Link to='firstusecase' smooth={true} duration={500}>
+                    Use Case & Details
+                    </Link>
+                  </button>
               </div>
             </div>
           </div>
@@ -57,7 +62,7 @@ const Work = ({mode}) => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 text-center'>
-              <span className='text-center text-2xl font-bold text-white tracking-wider'>
+              <span className='text-center  font-bold text-white tracking-wider'>
                 Chat GPT 3 messanger
                 <br></br>
                 (TypeScript + React Native + Firebase)
@@ -73,6 +78,11 @@ const Work = ({mode}) => {
                     Code
                   </button>
                 </a>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    <Link to='thirdusecase' smooth={true} duration={500}>
+                    Use Case & Details
+                    </Link>
+                  </button>
               </div>
             </div>
           </div>
@@ -83,10 +93,10 @@ const Work = ({mode}) => {
           >
             {/* Hover Effects */}
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-center text-2xl font-bold text-white tracking-wider'>
+              <span className='text-center font-bold text-white tracking-wider'>
                 Personal Website v2.0
                 <br></br>
-                (React.JS)
+                (React, Tailwind, Netlify)
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://dmitrii-portfolio.com/'>
@@ -108,10 +118,10 @@ const Work = ({mode}) => {
           >
             {/* Hover Effects */}
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-center text-2xl font-bold text-white tracking-wider'>
+              <span className='text-center  font-bold text-white tracking-wider'>
                 Songs Search
                 <br></br>
-                (React.JS)
+                (React, Tailwind, Netlify)
               </span>
               <div className='pt-8 text-center'>
                 <a href='http://spotifyt.surge.sh/'>
@@ -129,53 +139,48 @@ const Work = ({mode}) => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${weather})` }}
+            style={{ backgroundImage: `url(${jockey})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-center text-2xl font-bold text-white tracking-wider'>
-                Weather checker app
+              <span className='text-center  font-bold text-white tracking-wider'>
+                Jockey - AI Chat assistant 
                 <br></br>
-                (React.JS)
+                (React, LangGraph, Python, LangChain)
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://weather-control.netlify.app/'>
+                <a href='https://www.twelvelabs.io/blog/introducing-jockey'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://github.com/DmitriiTsy/weather-app'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
+                    Article about the project
                   </button>
                 </a>
               </div>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${lyft})` }}
+            style={{ backgroundImage: `url(${twelve})`}}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-center text-2xl font-bold text-white tracking-wider'>
-                 Responsive Lyft website
+              <span className='text-center  font-bold text-white tracking-wider'>
+                 Multimodal AI platform
                  <br></br>
-                (JavaScript)
+                (JS, TypeScript, React, Tailwind, LangGraph)
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://lyft-responsive.netlify.app/'>
+                <a href='https://www.twelvelabs.io'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/DmitriiTsy/Lyft_first'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
               </div>
+              <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    <Link to='secondusecase' smooth={true} duration={500}>
+                    Use Case & Details
+                    </Link>
+                  </button>
             </div>
           </div>
         </div>
